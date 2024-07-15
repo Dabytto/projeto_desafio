@@ -1,14 +1,15 @@
 body {
     font-family: "Open Sans", sans-serif;
     
-    margin: 0 auto 72px;
+    margin: 64 auto 72px;
     
   }
   
   #main {
       width: 592px;
-      margin: 0px auto;
+      margin: 32px auto 0;
       max-width: auto;
+      
      
   }
 
@@ -41,19 +42,28 @@ body {
     
   }
 
-  p, #footer {
+  p, rodape {
     color: #7d7987;
     line-height: 28px;
+    font-size: 15px;
   }
   
-  #footer a{
+  #rodape a{
     margin-left: 72px;
     color: #3f3d56;
     max-width: auto;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
   }
 
   #rodape {
-    margin-left: 410px;
+    margin-top: 40px;
+    margin-left: 85px;
+  }
+
+  #linha {
+    margin-left: 376px;
   }
 
  
